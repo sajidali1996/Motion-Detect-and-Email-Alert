@@ -15,7 +15,7 @@ footer = '- This is your Security System'
 passcode = 'jkdukdbewuebsdhjdskj'
 conn=smtplib.SMTP_SSL('smtp.mail.yahoo.com',465)
 conn.ehlo()
-conn.login(email_address,passcode)
+conn.login(sender_email_address,passcode)
 conn.sendmail(sender_email_address,receiver_email_address,subject+content+footer)
 conn.quit()
 print('Email Alert Sent')
