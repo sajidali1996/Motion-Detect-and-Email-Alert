@@ -14,3 +14,5 @@ any chnages to email password may cause error, author of this code does not
 take any responsibility for malfunction.
 exposing you email and password may cause privacy concerns. please create
 a deticated email address for this project.
+Procedure for running:
+run the MotionDetect.py file
