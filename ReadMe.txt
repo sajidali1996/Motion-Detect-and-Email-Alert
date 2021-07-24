@@ -16,3 +16,10 @@ exposing you email and password may cause privacy concerns. please create
 a deticated email address for this project.
 Procedure for running:
 run the MotionDetect.py file
+To add this file to raspberry pi start up write the following command and place the file there
+sudo nano /etc/rc.local
+
+add file as
+python /home/pi/Desktop/MotionDetect.py &       i have assumme the file is on desktop if somewhere else change the directory accordingly
+
+don't forget the & symbol at the end
